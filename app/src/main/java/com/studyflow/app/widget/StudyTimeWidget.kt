@@ -89,12 +89,7 @@ private fun StudyTimeWidgetContent(
     val green      = ColorProvider(Color(0xFF69FF47))
 
     Box(
-        modifier = GlanceModifier
-            .fillMaxSize()
-            .background(bg)
-            .padding(14.dp)
-            .cornerRadius(20.dp)
-            .clickable(actionStartActivity<MainActivity>()),
+        
         contentAlignment = Alignment.TopStart,
     ) {
         Column(modifier = GlanceModifier.fillMaxSize()) {
