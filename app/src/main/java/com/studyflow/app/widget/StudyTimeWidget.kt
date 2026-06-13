@@ -160,7 +160,7 @@ private fun StudyTimeWidgetContent(
             // Segmented bar
             if (totalMs > 0 && bySubject.isNotEmpty()) {
                 Row(
-                    modifier = GlanceModifier.fillMaxWidth().height(6.dp).
+                    modifier = GlanceModifier.fillMaxWidth().height(6.dp)
                         .background(ColorProvider(Color(0xFF2A2A2A))),
                 ) {
                     bySubject.forEach { (_, ms, colorIdx) ->
