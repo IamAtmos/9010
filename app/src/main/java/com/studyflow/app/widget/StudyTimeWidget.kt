@@ -131,7 +131,7 @@ private fun StudyTimeWidgetContent(
                             modifier = GlanceModifier
                                 .size(7.dp)
                                 .background(subColor)
-                                .cornerRadius(4.dp),
+
                         ) {}
                         Spacer(GlanceModifier.width(7.dp))
                         Text(
@@ -160,7 +160,7 @@ private fun StudyTimeWidgetContent(
             // Segmented bar
             if (totalMs > 0 && bySubject.isNotEmpty()) {
                 Row(
-                    modifier = GlanceModifier.fillMaxWidth().height(6.dp).cornerRadius(3.dp)
+                    modifier = GlanceModifier.fillMaxWidth().height(6.dp).
                         .background(ColorProvider(Color(0xFF2A2A2A))),
                 ) {
                     bySubject.forEach { (_, ms, colorIdx) ->
