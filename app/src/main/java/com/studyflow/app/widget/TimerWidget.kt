@@ -39,12 +39,6 @@ private fun TimerWidgetContent(remaining: Long, isRunning: Boolean, isFinished: 
     val textMute = ColorProvider(Color(0xFF9E9E9E))
 
     Box(
-        modifier = GlanceModifier
-            .fillMaxSize()
-            .background(bg)
-            .padding(12.dp)
-            .cornerRadius(18.dp)
-            .clickable(actionStartActivity<MainActivity>()),
         contentAlignment = Alignment.Center,
     ) {
         Row(
